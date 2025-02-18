@@ -3,14 +3,14 @@
 #include <stdio.h>
 
 /**
- * main - start of the code
- * description : find positive or negative numbers
+ * Main - Start of the code
+ * Description : Generate positive or negative numbers
  * Return : always 0 (success)
  */
 
 int main(void)
 {
-int n;
+int n;/*Variable to integer a random number*/
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
@@ -21,7 +21,7 @@ else if (n < 0)
 {
 printf("%d is negative\n", n);
 }
-else	
+else
 {
 printf("%d is zero\n", n);
 }
