@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	printf("La taille de int est :%zu octets\n", sizeof(int));
+	printf("Size of an int : %zu byte(s)\n", sizeof(int));
 	return (0);
 }
