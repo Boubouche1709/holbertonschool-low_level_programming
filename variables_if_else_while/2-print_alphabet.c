@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * Main - starts of the program
- * Description : print the alphabet in lowercase
- * Return : always 0 success
+ * Main - Entry of the program
+ *
+ * Description: print the alphabet in lowercase
+ *
+ * Return: always 0 (success)
  */
 
 int main(void)
