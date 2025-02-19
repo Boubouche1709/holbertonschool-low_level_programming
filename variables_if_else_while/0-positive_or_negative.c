@@ -5,9 +5,9 @@
 /**
  * main - Entry point of the program
  *
- * n - Random numbers
+ * Description: Generate a random number and if it's positive, negative, zero
  *
- * Description: Generate a random number and checks if it is positive, negative, or zero
+ * n: Generation random numbers
  *
  * Return: always 0 (success)
  */
@@ -15,7 +15,6 @@
 int main(void)
 {
 int n;
-
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
