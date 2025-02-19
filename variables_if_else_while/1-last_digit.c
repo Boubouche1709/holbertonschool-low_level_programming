@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- *  main - start of the program.
- *  Description : .
- *  Return : Always 0 = success.
+ *  main - start of the program .
+ *  Description : Generates randoms numbers and prints the restults .
+ *  Return : Always 0 = success .
  */
 int main(void)
 {
@@ -13,6 +13,7 @@ int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
+
 if (n > 5)
 {
 printf("Last digit of %d is %d and is greater than 5\n", n, n % 10);
