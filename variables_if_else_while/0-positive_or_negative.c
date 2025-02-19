@@ -3,13 +3,13 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program.
+ * main - Entry point of the program
  *
- * n - Random numbers.
+ * n - Random numbers
  *
- * Description : Generate a random number and checks if it is positive, negative, or zero.
+ * Description: Generate a random number and checks if it is positive, negative, or zero
  *
- * Return : always 0 (success).
+ * Return: always 0 (success)
  */
 
 int main(void)
