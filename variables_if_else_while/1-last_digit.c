@@ -5,9 +5,9 @@
 /**
  *  main - Entry of the program
  *
- *  n - Randoms numbers
- *
  *  Description: Generates randoms numbers and prints the restults
+ *
+ *  n: Random numbers
  *
  *  Return: Always 0 = (success)
  */
