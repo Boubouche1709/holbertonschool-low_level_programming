@@ -3,14 +3,15 @@
 #include <stdio.h>
 
 /**
- * Main - Start of the code
- * Description : Generate positive or negative numbers
- * Return : always 0 (success)
+ * main - Entry point of the program.
+ * Description : Generate a random number and checks if it is positive, negative, or zero.
+ * Return : always 0 (success).
  */
 
 int main(void)
 {
-int n;/*Variable to integer a random number*/
+int n;
+
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
