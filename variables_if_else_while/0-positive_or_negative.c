@@ -4,7 +4,11 @@
 
 /**
  * main - Entry point of the program.
+ *
+ * n - Random numbers.
+ *
  * Description : Generate a random number and checks if it is positive, negative, or zero.
+ *
  * Return : always 0 (success).
  */
 
