@@ -4,7 +4,11 @@
 
 /**
  *  main - start of the program .
+ *
+ *  n - Randoms numbers.
+ *
  *  Description : Generates randoms numbers and prints the restults .
+ *
  *  Return : Always 0 = success .
  */
 
