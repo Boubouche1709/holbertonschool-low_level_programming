@@ -1,5 +1,19 @@
 #include "main.h"
 #include <stdio.h>
+#include <unistd.h>
+
+/**
+ * _putchar - Write a script
+ *
+ * @c: Write a characters
+ *
+ * Return: Always 1 (Success)
+ */
+
+int _putchar(char c)
+{
+return (write(1, &c, 1));
+}
 
 /**
  * main - Entry point of the program
