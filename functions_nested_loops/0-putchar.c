@@ -3,22 +3,9 @@
 #include <unistd.h>
 
 /**
- * _putchar - Write a script
- *
- * @c: Write a characters
- *
- * Return: Always 1 (Success)
- */
-
-int _putchar(char c)
-{
-return (write(1, &c, 1));
-}
-
-/**
  * main - Entry point of the program
  *
- * Description: Print exactly _putchar with putchar function
+ * Description: Print exactly the sentence with putchar function
  *
  * Return: Always 0 (Success)
  */
