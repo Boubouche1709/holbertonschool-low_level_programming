@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * print_alphabet - Start the code
  *
  * Description: Print the alphabet
  *
