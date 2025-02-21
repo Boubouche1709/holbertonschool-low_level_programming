@@ -7,7 +7,7 @@
 void times_table(void)
 {
 int a, b, multiple;
-for (a = 0; a <= 9; i++)
+for (a = 0; a <= 9; a++)
 {
 for (b = 0; b <= 9; b++)
 {
@@ -27,6 +27,6 @@ _putchar(',');
 _putchar(' ');
 }
 }
-_putchar('\n')
+_putchar('\n');
 }
 }
