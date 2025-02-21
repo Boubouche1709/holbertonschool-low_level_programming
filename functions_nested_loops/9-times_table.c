@@ -15,19 +15,20 @@ multiple = a * b;
 if (multiple < 10)
 {
 if (b != 0)
-_putchar(' ');
+_putchar(' ');	
 _putchar(multiple + '0');
-_putchar(' ');
 }
 else
 {
 _putchar((multiple / 10) + '0');
 _putchar((multiple % 10) + '0');
-_putchar(' ');
 }
 if (b < 9)
 {
 _putchar(',');
+}
+if (b < 9 || multiple < 10)
+{
 _putchar(' ');
 }
 }
