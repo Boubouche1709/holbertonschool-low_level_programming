@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
+ *print_number - prints use _putchar
+ *
  * print_to_98 - Prints all natural numbers from n to 98
  *
  * @n: The starting number
- *
- * print_number - Prints using _putchar
  */
 
 void print_number(int n)
