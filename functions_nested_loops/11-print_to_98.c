@@ -4,11 +4,8 @@
 /**
  *print_number - prints use _putchar
  *
- * print_to_98 - Prints all natural numbers from n to 98
- *
  * @n: The starting number
  */
-
 void print_number(int n)
 {
 if (n < 0)
@@ -21,6 +18,11 @@ print_number(n / 10);
 _putchar((n % 10) + '0');
 }
 
+/**
+ * print_to_98 - prints number from n to 98
+ *
+ * @n: The starting number
+ */
 void print_to_98(int n)
 {
 while (n != 98)
