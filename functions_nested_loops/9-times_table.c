@@ -12,7 +12,7 @@ for (a = 0; a <= 9; a++)
 for (b = 0; b <= 9; b++)
 {
 multiple = a * b;
-if (multiple < 11)
+if (multiple < 10)
 {
 _putchar(multiple + '0');
 }
