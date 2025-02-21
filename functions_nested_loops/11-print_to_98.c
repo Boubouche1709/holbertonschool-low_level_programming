@@ -5,49 +5,34 @@
  * print_to_98 - Prints all natural numbers from n to 98
  *
  * @n: The starting number
+ *
+ * print_number - Prints using _putchar
  */
+
+void print_number(int n)
+{
+if (n < 0)
+{
+_putchar('-');
+n = -n;
+}
+if (n / 10)
+print_number(n / 10);
+_putchar((n % 10) + '0');
+}
 
 void print_to_98(int n)
 {
-if (n <= 98)
+while (n != 98)
 {
-for (; n <= 98; n++)
-{
-if (n < 0 || n > 9)
-{
-_putchar((n / 10) + '0');
-_putchar((n % 10) + '0');
-}
-else
-{
-_putchar(n + '0');
-}
-if (n != 98)
-{
+print_number(n);
 _putchar(',');
 _putchar(' ');
-}
-}
-}
+if (n < 98)
+n++;
 else
-{
-for (; n >= 98; n--)
-{
-if (n < 0 || n > 9)
-{
-_putchar((n / 10) + '0');
-_putchar((n % 10) + '0');
+n--;
 }
-else
-{
-_putchar(n + '0');
-}
-if (n != 98)
-{
-_putchar(',');
-_putchar(' ');
-}
-}
-}
+print_number(98);
 _putchar('\n');
 }
