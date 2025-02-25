@@ -2,17 +2,18 @@
 #include <stdio.h>
 
 /**
- * print_most_numbers - print string number
+ * print_most_numbers - print the number
  *
- * @c: numbers
+ * Description: print list of numbers
  */
 
 void print_most_numbers(void)
 {
-int i;
 char *str = "01356789\n";
-for (i = 0; str[i] != '\0'; i++)
+while (*str)
 {
-_putchar(str[i]);
+_putchar(*str);
+str++;
 }
+_putchar('\n');
 }
