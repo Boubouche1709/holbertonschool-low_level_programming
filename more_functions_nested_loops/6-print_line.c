@@ -4,7 +4,7 @@
 /**
  * print_line - print line
  *
- * @i: random line
+ * @n: print multiple character
  */
 
 void print_line(int n)
@@ -16,7 +16,7 @@ _putchar('\n');
 }
 else
 {
-for ( i = 0; i < n; i++)
+for (i = 0; i < n; i++)
 {
 _putchar('_');
 }
