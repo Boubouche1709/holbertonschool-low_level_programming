@@ -2,15 +2,18 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * print_numbers - print the number
  *
- * print_numbers: call the function
- *
- * Return: Always 0.
+ * Description: print list of numbers
  */
 
-int main(void)
+void print_numbers(void)
 {
-print_numbers();
-return (0);
+char *str = "0123456789$";
+while (*str)
+{
+_putchar(*str);
+str++;
+}
+_putchar('\n');
 }
