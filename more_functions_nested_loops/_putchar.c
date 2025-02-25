@@ -1,4 +1,3 @@
-#include "main.h"
 #include <unistd.h>
 
 /**
@@ -6,11 +5,11 @@
  * 
  * @c: The character to print
  *
- * Return: Success 1, otherwise 0
+ * Return: Success 1, otherwise -1
  * 
  */
 
 int _putchar(char c)
 {
-return (write(1, &c, 1) == 1) ? 1 : 0;
+return (write(1, &c, 1));
 }
