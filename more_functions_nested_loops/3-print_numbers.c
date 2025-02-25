@@ -9,7 +9,7 @@
 
 void print_numbers(void)
 {
-char *str = "0123456789$";
+char *str = "0123456789";
 while (*str)
 {
 _putchar(*str);
