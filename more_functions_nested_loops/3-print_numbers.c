@@ -2,20 +2,15 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program
+ * main - check the code
  *
- * Description: Make a number list from 0 to 9
+ * print_numbers: call the function
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 
-void print_numbers(void)
+int main(void)
 {
-int a = 0;
-while (a <= 9)
-{
-putchar(a + '0');
-a++;
-}
-putchar('\n');
+print_numbers();
+return (0);
 }
