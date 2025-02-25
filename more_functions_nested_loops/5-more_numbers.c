@@ -11,23 +11,16 @@ void more_numbers(void)
 {
 int i = 0;
 int j;
+char *numbers;
 while (i < 10)
 {
+numbers = "01234567891011121314\n";
 j = 0;
-while (j <= 14)
+while (numbers[j] != '\0')
 {
-if (j >= 10)
-{
-_putchar('1');
-_putchar((j % 10) + '0');
-}
-else
-{
-_putchar(j + '0');
-}
+_putchar(numbers[j]);
 j++;
 }
-_putchar('\n');
 i++;
 }
 }
