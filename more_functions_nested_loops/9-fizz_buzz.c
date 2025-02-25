@@ -26,11 +26,7 @@ printf("Buzz ");
 }
 else
 {
-printf("%d", a);
-}
-if (a != 100)
-{
-printf(" ");
+printf("%d ", a);
 }
 }
 printf("\n");
