@@ -15,9 +15,10 @@ while (s[length] != '\0')
 {
 length++;
 }
-for (i = length - 1; i >= 0; i--)
+for (i = 0; i < length / 2; i++)
 {
-_putchar(s[i]);
+temp = s[i];
+s[i] = s[length - 1 - i];
+s[length -1 - i] = temp;
 }
-_putchar('\n');
 }
