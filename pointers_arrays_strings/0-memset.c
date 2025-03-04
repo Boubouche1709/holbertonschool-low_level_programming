@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
 
 /**
  * _memset - Fills memory with a constant byte
@@ -21,5 +20,5 @@ for (i = 0; i < n; i++)
 {
 s[i] = b;
 }
-return s;
+return (s);
 }
