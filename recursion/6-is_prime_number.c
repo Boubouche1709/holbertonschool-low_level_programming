@@ -4,7 +4,7 @@
 /**
  * is_prime_helper - help to check a prime number
  * @n: number to check
- * @i: 
+ * @i: current divide
  * Return: 1 for a prime number, otherwise 0
  */
 int is_prime_helper(int n, int i)
