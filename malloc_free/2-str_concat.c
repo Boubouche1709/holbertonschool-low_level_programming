@@ -31,7 +31,7 @@ i++;
 }
 while (j < len2)
 {
-concat[j] = s2[j];
+concat[i] = s2[j];
 i++;
 j++;
 }
