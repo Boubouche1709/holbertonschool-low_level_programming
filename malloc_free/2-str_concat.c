@@ -35,5 +35,6 @@ concat[j] = s2[j];
 i++;
 j++;
 }
+concat[i] = '\0';
 return (concat);
 }
