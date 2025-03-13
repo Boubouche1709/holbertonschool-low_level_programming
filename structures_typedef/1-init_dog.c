@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 #include "dog.h"
 
 /**
  * init_dog - init a variable
+ * @d: pointer to init_dog
  * @: pointer to typedef
  * @name: dog's name
  * @age: dog's age
