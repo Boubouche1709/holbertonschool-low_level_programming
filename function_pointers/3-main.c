@@ -26,6 +26,11 @@ if (operator == NULL)
 printf("Error\n");
 exit(99);
 }
+if ((*argv[2] == '/' || *argv[2] == '%' && num2 == 0)
+{
+printf("Error\n");
+exit(100);
+}
 result = operator(num1, num2);
 printf("%d\n", result);
 return (0);
