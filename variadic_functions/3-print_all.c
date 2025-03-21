@@ -9,14 +9,15 @@
  */
 void print_all(const char * const format, ...)
 {
-int i = 0;
-char *str;
-char *separator = "";
 va_list args;
+unsigned int i = 0;
+char *str;
+int separator = 1;
 va_start(args, format);
 while (format && format[i])
 {
-printf("%s", separator);
+if (!separator)
+printf(", ");
 switch (format[i])
 {
 case 'c':
@@ -35,10 +36,11 @@ str = "(nil)";
 printf("%s", str);
 break;
 default:
+separator = 1;
 i++;
 continue;
 }
-separator = ", ";
+separator = 0;
 i++;
 }
 va_end(args);
