@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-char c[] ="0123456789abcdef";
+char c[] = "0123456789abcdef";
 int i = 0;
 while (c[i])
 {
