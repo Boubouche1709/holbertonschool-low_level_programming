@@ -1,11 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include "main.h"
-#include <unistd.h>
+
 /**
  * main - entry point of the code
  * Return: always 0 (Success)
  */
+
 int main(void)
 {
 char c[] = "_putchar";
