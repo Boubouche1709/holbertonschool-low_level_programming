@@ -8,8 +8,7 @@
 
 int main(void)
 {
-char c[] = "_putchar";
+char c[] = "_putchar\n";
 write(1, c, sizeof(c) - 1);
-putchar('\n');
 return (0);
 }
