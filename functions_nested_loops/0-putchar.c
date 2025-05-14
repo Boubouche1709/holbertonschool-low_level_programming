@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - entry point of the code
@@ -8,12 +9,6 @@
 int main(void)
 {
 char c[] = "_putchar";
-int i = 0;
-while (c[i] != '\0')
-{
-putchar(c[i]);
-i++;
-}
-putchar('\n');
+write(1, c, sizeof(c) - 1);
 return (0);
 }
