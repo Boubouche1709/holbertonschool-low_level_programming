@@ -10,5 +10,6 @@ int main(void)
 {
 char c[] = "_putchar";
 write(1, c, sizeof(c) - 1);
+putchar('\n');
 return (0);
 }
