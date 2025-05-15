@@ -1,18 +1,12 @@
 #include <stdio.h>
 #include "main.h"
-
+#include <unistd.h>
 /**
  * print_alphabet - function to print alphabet
  */
 void print_alphabet(void)
 {
-char c[] = "abcdefghijklmnopqrstuvwxyz";
-int i = 0;
-while (c[i] != '\0')
-{
-putchar(c[i]);
-i++;
-}
-putchar('\n');
+char c[] = "abcdefghijklmnopqrstuvwxyz\n";
+write(1, c, sizeof(c) - 1);
 return;
 }
