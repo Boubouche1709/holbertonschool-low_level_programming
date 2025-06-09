@@ -3,7 +3,8 @@
 #include <unistd.h>
 #include <ctype.h>
 /**
- * islower - check if the chrracter is a lowercase
+ * _islower - check if the chrracter is a lowercase
+ * @c: character to check
  * Return: 1 if is a lowercase, 0 otherwise
  */
 int _islower(int c)
