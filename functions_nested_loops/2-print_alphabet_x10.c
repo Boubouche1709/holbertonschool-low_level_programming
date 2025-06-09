@@ -3,15 +3,22 @@
 #include <unistd.h>
 
 /**
- * print_alphabet_x10 - function to print the alphabet
+ * print_alphabet_x10 - function to print the alphabet ten times
  */
 
 void print_alphabet_x10(void)
 {
 char c;
-for (c = 'a'; c <= 'z'; c++)
+int i = 0;
+while (i < 10)
 {
-_putchar(c);
-}
+	c = 'a';
+	while (c <= 'z')
+	{
+	_putchar(c);
+	c++;
+	}
+i++;
 _putchar('\n');
+}
 }
