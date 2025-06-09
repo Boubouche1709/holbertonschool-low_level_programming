@@ -4,7 +4,6 @@
 
 /**
  * print_alphabet - function to print the alphabet
- * @c: character to print
  */
 
 void print_alphabet(void)
