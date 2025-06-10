@@ -1,7 +1,4 @@
-#include <stdio.h>
 #include "main.h"
-#include <unistd.h>
-#include <stdlib.h>
 /**
  * _abs - print the absolute value
  * @i: integer to compute
@@ -9,16 +6,12 @@
  */
 int _abs(int i)
 {
-if (i > 0)
+if (i < 0)
 {
-return (abs(i));
-}
-else if (i < 0)
-{
-return (abs(i));
+return (-i);
 }
 else
 {
-return (abs(i));
+return (i);
 }
 }
