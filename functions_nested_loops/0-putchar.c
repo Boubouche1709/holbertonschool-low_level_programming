@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <unistd.h>
 #include "main.h"
 
 /**
@@ -9,7 +7,13 @@
 
 int main(void)
 {
-char c[] = "_putchar\n";
-(write(1, &c, 9));
+char text[] = "_putchar\n";
+int i = 0;
+
+while (text[i] != '\0')
+{
+_putchar(text[i]);
+i++;
+}
 return (0);
 }
