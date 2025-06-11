@@ -2,6 +2,8 @@
 
 /**
  * add - add two integers
+ * @nb1: int
+ * @nb2: int
  * Return: result of add
  */
 
