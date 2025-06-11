@@ -18,5 +18,5 @@ for (hour = 0; hour < 24; hour++)
 		_putchar((minute % 10) + '0');
 		_putchar('\n');
 		}
-	}	
+	}
 }
