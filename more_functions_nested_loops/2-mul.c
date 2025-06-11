@@ -4,7 +4,7 @@
 /**
  * mul - function to multiple two int
  * @a: int
- * @b int
+ * @b: int
  * Return: result
  */
 int mul(int a, int b)
