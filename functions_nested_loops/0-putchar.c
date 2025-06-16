@@ -7,13 +7,14 @@
 
 int main(void)
 {
-char text[] = "_putchar\n";
-int i = 0;
-
-while (text[i] != '\0')
-{
-_putchar(text[i]);
-i++;
-}
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 return (0);
 }
