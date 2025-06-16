@@ -1,10 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** 
+
+/**
  * main - entry point of the code
  * Return: always 0 success
  */
+
 int main(void)
 {
 int n;
