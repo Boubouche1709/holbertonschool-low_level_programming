@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- *_atoi - convert a string to an integer
- @s: string to convert
+ * _atoi - convert a string to an integer
+ * @s: string to convert to an int
+ * Return: value of int
  */
 
 int _atoi(char *s)
@@ -26,5 +27,5 @@ break;
 }
 i++;
 }
-return (result * sign);
+return (result *sign);
 }
