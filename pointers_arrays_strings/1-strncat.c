@@ -4,6 +4,7 @@
  * _strncat - copy a string
  * @src: string to copy
  * @dest: copy of the string
+ * @n: int for byte
  * Return: dest
  */
 
