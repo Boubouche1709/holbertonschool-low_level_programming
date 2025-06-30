@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memcpy - copy a string
+ * _strchr - find a char
  * @s: string to copy
  * @c: copy of the string
  * Return: NULL or c
