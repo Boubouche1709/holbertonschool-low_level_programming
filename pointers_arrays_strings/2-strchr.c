@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * _strchr - find a char
@@ -17,6 +18,5 @@ for (i = 0; s[i] != '\0'; i++)
 	if (s[i] == '\0')
 	break;
 	}
-return ('\0');
+return (NULL);
 }
-
