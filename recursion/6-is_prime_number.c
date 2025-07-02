@@ -18,6 +18,12 @@ return (1);
 return (isprime(n, div));
 }
 
+/**
+* isprime - fonction to check if is a prime number
+* @num: int to check
+* @div: the divisor
+* Return: 1 for success 0 otherwise
+*/
 int isprime(int num, int div)
 {
 if (num % div == 0)
