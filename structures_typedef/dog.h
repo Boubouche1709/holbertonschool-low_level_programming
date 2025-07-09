@@ -5,6 +5,7 @@
 * struct dog - structure of dog
 * @name: first element
 * @age: second element
+* @owner: third element
 */
 struct dog
 {
