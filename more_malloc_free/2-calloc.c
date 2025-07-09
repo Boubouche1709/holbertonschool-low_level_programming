@@ -9,23 +9,23 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-void *memoire;
-char *check;
-unsigned int i;
+	void *memoire;
+	char *check;
+	unsigned int i;
 
-if (nmemb == 0 || size == 0)
-{
-return (NULL);
-}
+	if (nmemb == 0 || size == 0)
+	{
+		return (NULL);
+	}
 	memoire = malloc(size * nmemb);
-if (memoire == NULL)
-{
-return (NULL);
-}
-	check = memoire;
-for (i = 0; i < (size * nmemb); i++)
-{
-check[i] = '\0';
-}
-return (memoire);
+	if (memoire == NULL)
+	{
+		return (NULL);
+	}
+		check = memoire;
+	for (i = 0; i < (size * nmemb); i++)
+	{
+		check[i] = '\0';
+	}
+	return (memoire);
 }
