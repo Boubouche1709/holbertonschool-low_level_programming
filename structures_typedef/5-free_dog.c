@@ -4,7 +4,7 @@
 
 /**
 * free_dog - function to free memory
-@d: pointer to info of the dog
+* @d: pointer to info of the dog
 */
 
 void free_dog(dog_t *d)
