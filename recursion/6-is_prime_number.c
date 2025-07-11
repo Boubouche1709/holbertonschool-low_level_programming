@@ -28,7 +28,7 @@ int isprime(int num, int div)
 {
 if (num % div == 0)
 return (0);
-if (div == num / 2)
+if (div * div > num)
 return (1);
 return (isprime(num, div + 1));
 }
