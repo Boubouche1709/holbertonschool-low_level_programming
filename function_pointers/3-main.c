@@ -25,6 +25,6 @@ if (operator == NULL)
 	printf("Error\n");
 	exit(99);
 }
-printf("%d\n", operator(a, b);
+printf("%d\n", operator(a, b));
 return (0);
 }
