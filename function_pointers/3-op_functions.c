@@ -1,4 +1,4 @@
-#include "calc.h"
+#include "3-calc.h"
 #include <stdio.h>
 
 /**
@@ -38,7 +38,7 @@ int op_mul(int a, int b)
 }
 
 /**
-* op_div - sub two int
+* op_div - div two int
 * @a: first int
 * @b: second int
 * Return: result
@@ -46,11 +46,16 @@ int op_mul(int a, int b)
 
 int op_div(int a, int b)
 {
-	return (a / b);
+	if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+return (a / b);
 }
 
 /**
-* op_mod - sub two int
+* op_mod - mod two int
 * @a: first int
 * @b: second int
 * Return: result
@@ -58,5 +63,10 @@ int op_div(int a, int b)
 
 int op_mod(int a, int b)
 {
-	return (a % b);
+		if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+return (a % b);
 }
