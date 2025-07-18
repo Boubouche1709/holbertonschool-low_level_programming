@@ -3,6 +3,7 @@
 /**
 * print_numbers - my function
 * @n: int
+* @separator: string to print between int
 */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
