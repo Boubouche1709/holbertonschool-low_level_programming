@@ -45,3 +45,6 @@ By the end of this project, you should be able to explain — without Google —
 - **Compiler**: `gcc` with the following flags:
   ```bash
   -Wall -Werror -Wextra -pedantic -std=gnu89
+
+  ## 👥 Authors
+- [Boubouche1709](https://github.com/Boubouche1709)
