@@ -21,9 +21,10 @@ if (*head == NULL)
 else
 {
 	temp = *head;
-	while (temp->next)
+	while (temp->next != NULL)
 		temp = temp->next;
 	temp->next = new_node;
+	new_node->prev = temp;
 }
 
 return (new_node);
