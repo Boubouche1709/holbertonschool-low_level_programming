@@ -22,10 +22,8 @@ if (idx == 0)
 new_node->prev = NULL;
 new_node->next = *h;
 if (*h)
-{
 (*h)->prev = new_node;
 *h = new_node;
-}
 return (new_node);
 }
 while (current && i < idx - 1)
