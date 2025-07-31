@@ -17,6 +17,7 @@ if (new_node == NULL)
 
 new_node->n = n;
 new_node->next = NULL;
+new_node->prev = NULL;
 
 if (*head == NULL)
 	*head = new_node;
